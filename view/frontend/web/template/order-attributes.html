@@ -1,0 +1,20 @@
+<li class="order-attributes">
+    <div class="order-attributes-form fieldset address">
+        <!-- ko foreach: { data: elems, as: 'element' } -->
+            <!-- ko template: element.getTemplate() --><!-- /ko -->
+        <!-- /ko -->
+    </div>
+    <select name="country" id="country-select">
+        <option value="">Select a Country</option>
+        <option value="US">United States</option>
+        <option value="CA">Canada</option>
+        <option value="GB">United Kingdom</option>
+        <option value="DE">Germany</option>
+        <option value="FR">France</option>
+        <option value="IT">Italy</option>
+        <option value="ES">Spain</option>
+        <option value="JP">Japan</option>
+        <option value="AU">Australia</option>
+        <option value="BR">Brazil</option>
+    </select>
+</li>
